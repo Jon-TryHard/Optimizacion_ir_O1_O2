@@ -1,0 +1,17 @@
+class Point {
+    x: integer;
+    y: integer;
+    
+    getX: function integer () = {
+        return x;
+    }
+    
+    getY: function integer () = {
+        return y;
+    }
+}
+
+main: function integer () = {
+    print 5;
+    return 0;
+}

@@ -1,0 +1,11 @@
+main: function integer () = {
+    i: integer = 0;
+    x: integer = 5;
+
+    while (i < 100) {
+        print x * 2;
+        i = i + 1;
+    }
+
+    return 0;
+}
